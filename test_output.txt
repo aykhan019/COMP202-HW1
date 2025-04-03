@@ -1,0 +1,34 @@
+Welcome to the Student Records System
+1. Insert new record
+2. Search record
+3. Delete record
+4. Update record
+5. Display records
+6. Exit
+Enter your option: Enter student name: Enter student ID: Enter student email: Record for John Doe added successfully.
+Welcome to the Student Records System
+1. Insert new record
+2. Search record
+3. Delete record
+4. Update record
+5. Display records
+6. Exit
+Enter your option: Search by (name/studentID/email): Enter search value: Record found:
+Name: John Doe, ID: 12345, Email: john.doe@example.com
+Welcome to the Student Records System
+1. Insert new record
+2. Search record
+3. Delete record
+4. Update record
+5. Display records
+6. Exit
+Enter your option: Student Records:
+Name: John Doe, ID: 12345, Email: john.doe@example.com
+Welcome to the Student Records System
+1. Insert new record
+2. Search record
+3. Delete record
+4. Update record
+5. Display records
+6. Exit
+Enter your option: Exiting the program.

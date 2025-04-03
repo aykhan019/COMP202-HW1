@@ -1,0 +1,25 @@
+1
+John Doe
+12345
+john.doe@example.com
+1
+Jane Smith
+67890
+jane.smith@example.com
+5
+2
+name
+John Doe
+2
+studentID
+67890
+2
+email
+john.doe@example.com
+4
+John Doe
+54321
+3
+Jane Smith
+5
+6
