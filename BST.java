@@ -14,7 +14,7 @@ public class BST {
         } else if (key.equals("studentID")) {
             return record.getStudentID();
         }
-        // Incorrect key
+        // Invalid key
         return "";
     }
     
@@ -22,7 +22,6 @@ public class BST {
     public void insert(StudentRecord record) {
         root = insertRec(root, record);
     }
-
    
     // Recursive insertion logic. Use key to compare (either name or studentID)
     private BSTNode insertRec(BSTNode root, StudentRecord record) {
@@ -53,12 +52,14 @@ public class BST {
         return searchByEmailRec(root, email);
     }
 
+    // inorder search for email, from left to right.
     private StudentRecord searchByEmailRec(BSTNode current, String email) {
     	if (current == null) { return null; }
     
     	// Search Left Subtree
     	StudentRecord fromLeft = searchByEmailRec(current.left, email);
-    	if (fromLeft != null) { // check to not to return null since we have a chance to find in right subtree    	
+        // check to not to return null since we have a chance to find in right subtree   
+    	if (fromLeft != null) {  	
     		return fromLeft;
     	}
     	
@@ -68,7 +69,7 @@ public class BST {
     	}
     	
     	// Search Right Subtree
-    	StudentRecord fromRight = searchByEmailRec(current.right, email); // last hope, return whatever you find
+    	StudentRecord fromRight = searchByEmailRec(current.right, email); // last hope, return whatever you find in the right subtree
     	return fromRight;
     }
     

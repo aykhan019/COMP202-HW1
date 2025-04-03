@@ -90,7 +90,7 @@ public class Main {
                     // bstByID.inOrderTraversal();
 
                     // // Pause to see output before menu appears again
-                    //System.out.println("\nPress Enter to continue to the menu...");
+                    //System.out.println("\nPress Enter to continue to the menu");
                     //scanner.nextLine();
 
                     break;
